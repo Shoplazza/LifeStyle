@@ -1,4 +1,3 @@
-````
 # Lifestyle
 
 [Getting started](#getting-started) |
@@ -8,7 +7,7 @@
 
 Lifestyle represents a HTML-first, JavaScript-only-as-needed approach to theme development. It's Shoplazza's first source available theme with performance, flexibility, and acts as a reference for building Shoplazza themes.
 
-* **Web-native in its purest form: We leverage the latest web browsers to their fullest, while maintaining support for the older ones through progressive enhancement—not polyfills.
+* **Web-native in its purest form**: We leverage the latest web browsers to their fullest, while maintaining support for the older ones through progressive enhancement—not polyfills.
 * **Lean, fast, and reliable:** Functionality and design defaults to “no” until it meets this requirement. Code ships on quality. Themes must be built with purpose. They shouldn’t support each and every feature in Shoplazza.
 * **JavaScript not required, fails gracefully:** We extract every bit of speed and functionality out of HTTP, semantic HTML, and CSS before writing our first line of JavaScript. JavaScript can only be used to progressively enhance features.
 * **Server-rendered:** HTML must be rendered by Shoplazza servers using Liquid. Business logic and platform primitives such as translations and money formatting don’t belong on the client. Async and on-demand rendering of parts of the page is OK, but we do it sparingly as a progressive enhancement.
@@ -32,7 +31,7 @@ git remote -v
 ```
 3. If you don't see an `upstream`, you can add one that points to Shoplazza's Lifestyle repository:
 ```sh
-git remote add upstream https://github.com/Shoplazza/LifeStyle.git
+git remote add upstream https://github.com/Shoplazza/lifestyle.git
 ```
 4. Pull in the latest Lifestyle changes into your repository:
 ```sh
@@ -59,6 +58,4 @@ You can follow this [quick start guide for theme developers](https://www.shoplaz
 Ensure that you follow the list of [theme store requirements](https://www.shoplazza.dev/docs/theme-requirements?utm_source=github-theme-lifestyle) if you're interested in becoming a [Shoplazza Theme Partner](https://www.shoplazza.dev/docs/theme-store-overview?utm_source=github-theme-lifestyle) and building themes for the Shoplazza platform.
 
 ## License
-
-Copyright (c) 2021-present Shoplazza Inc. See [LICENSE](./LICENSE.md) for further details.
-````
+Copyright (c) 2021-present Shoplazza. See [LICENSE](./LICENSE.md) for further details.
